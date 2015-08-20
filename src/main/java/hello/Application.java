@@ -10,6 +10,7 @@ public class Application {
 		MyService myService = (MyService) ctx.getBean("myService");
 
 		System.out.println(">>>>>" + myService.go());
+		
 	}
 
 }
